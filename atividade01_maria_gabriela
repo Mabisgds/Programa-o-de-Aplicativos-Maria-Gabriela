@@ -1,0 +1,9 @@
+String nome;
+int idade; 
+double altura;
+boolean estudante; 
+
+nome = "Davi"; 
+idade = 17; 
+altura = 1.83; 
+estudante = true; System.out.print("Meu nome é " +nome+ "e tenho" +idade+ "anos, e" + altura+ "de altura, além disso sou estudante" );
