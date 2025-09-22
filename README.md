@@ -1,2 +1,2 @@
-# Programacao_de-Aplicativos_Maria_Gabriela
+# Programacao_de_Aplicativos_Maria_Gabriela
 Repositório da disciplina de Programação de Aplicativo
