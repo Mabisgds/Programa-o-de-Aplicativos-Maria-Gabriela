@@ -4,6 +4,7 @@
  */
 package atividade05_maria_gabriela;
 import java.util.Scanner;
+import java.lang.Math;
 /**
  *
  * @author Aluno
@@ -99,23 +100,100 @@ public class Atividade05_maria_gabriela {
 //        System.out.print(resul);
 
     //6
-        int n,
-        v1 = 0,
-        v2 = 1,
-        p;
+//        int n,
+//        v1 = 0,
+//        v2 = 1,
+//        p;
+//        
+//        System.out.print("Insira o valor: ");
+//        n = input.nextInt();
+//        
+//        p = v1+v2;
+//        
+//        while(p <= n){
+//            System.out.print(p+ ",");
+//            v1 = v2;
+//            v2 = p;
+//            p = v1 +v2 ;
+//        }
+
+    //7
+//        System.out.print("Insira o valor: ");
+//        int n = input.nextInt();
+//
+//        int i = 2;
+//        int divisores = 0;
+//
+//        if (n <= 1) {
+//            System.out.println(n + " não é primo");
+//        } else {
+//            while (i <= Math.sqrt(n)) {
+//                if (n % i == 0) {
+//                    divisores++; 
+//                    break;       
+//                }
+//                i++;
+//            }
+//
+//            if (divisores == 0) {
+//                System.out.println(n + " é primo");
+//            } else {
+//                System.out.println(n + " não é primo");
+//            }
+//        
+//    }
+
+    //8
+//        double a,b =0,i;
+//        System.out.print("Insira um valor: ");
+//        a = input.nextDouble();
+//        
+//        i = a;
+//        while(a>0){
+//            
+//          
+//            System.out.print("Insira um valor: ");
+//            a = input.nextDouble();
+//            if(a>0){
+//            
+//            i+=a;}
+//        }
+//        
+//        System.out.print(i);
         
-        System.out.print("Insira o valor: ");
-        n = input.nextInt();
         
-        p = v1+v2;
         
-        while(p <= n){
-            System.out.print("," + p);
-            v1=v2;
-            f1 = p;
-            p = v1 +v2;
-        }
+    //9
+//        int a,b,i = 1;
+//        System.out.print("Insira um valor: ");
+//        a = input.nextInt();
+//        System.out.print("Insira a quantidade de vezes pra repetir:  ");
+//        b = input.nextInt();
+//        if(b>0){
+//        a *=b;}
+//        System.out.print(a);
+
+
+    //10
+        int a,b;
+        System.out.print("Insira um valor: ");
+        a = input.nextInt();
+        while(a>1){
+            b = a % 2;
+            
+            if(b == 0){
+                a /=2;
+            }
+            
+            else{
+                a = 3* a + 1;
+            }
+            System.out.println(a);
+            
+            }
+        
 }
+}    
 
         
         
