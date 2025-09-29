@@ -140,16 +140,52 @@ public class Atividade07_mariag {
 //        System.out.printf("vogais: %d \n consoantes: %d \n espaços: %d \n numeros: %d ", vol, con, espaco, num);
    
     // 7
-        String texto, pa;
+//        String texto, pa;
+//        int cont = 0,
+//        inicio = 0,
+//        po;
+//        
+//        System.out.print("Digite o texto: ");
+//        texto = e.nextLine();
+//        
+//        System.out.print("Insira a palavra: ");
+//        pa = e.nextLine();
+//    
+//        while((po = texto.indexOf(pa, inicio)) != -1){ 
+//            cont++;
+//            inicio = po +1;
+//        }
+//        
+//        if(cont > 0){
+//            System.out.printf("A palavra %s aparece: %d ", pa, cont  );
+//        }
+//        else{
+//            System.out.print("A palavra não aparece");
+//        }
+
+    //8
+//        String nome, usu;
+//        int cont = 0;
+//
+//        System.out.print("Insira o nome de usuario: ");
+//        nome = e.nextLine();
+//        
+//        do{
+//            System.out.print("Insira o nome do usuario: ");
+//            usu = e.nextLine();
+//            if(nome.equals(usu)){
+//                System.out.print("Acesso concedido");
+//                break;
+//        }
+//            else{
+//                System.out.println("usuario invalido!");
+//                cont++;
+//        }
+//        }
+//        while(cont < 3);
+//        if(cont>=3){
+//            System.out.print("Acesso bloqueado");}
         
-        System.out.print("Digite o texto: ");
-        texto = e.nextLine();
-        
-        System.out.print("Insira a palavra: ");
-        pa = e.nextLine();
     
-        for (int i= 0; )
-//       while(texto.indexOf(pa) != -1){ 
-           
     }
 }
