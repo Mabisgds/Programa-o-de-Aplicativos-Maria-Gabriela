@@ -11,8 +11,11 @@ public class Veiculo {
     private int horaEntrada;
     private int minutoEntrada;
 
-    public Veiculo(){
-        
+    public Veiculo(){}
+    
+    public Veiculo(int contador){
+        contador++;
+        this.codigo = contador;
     }
     
     public Veiculo(String placa, String condutor, String marca, String modelo, 
